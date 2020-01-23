@@ -6,6 +6,11 @@ cd pysap
 python setup.py develop
 ls build/
 cd ../
-git clone https://github.com/cea-cosmic/pysap-mri
+git clone --branch calibrationless-ex https://github.com/chaithyagr/pysap-mri
 cd pysap-mri
 python setup.py develop
+cd ../
+git clone https://github.com/chaithyagr/modopt
+cd modopt
+python setup.py develop
+
